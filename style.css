@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 723px;
+	height: 98px;
+}
+
+.container:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+#header {
+	background-color: #252525;
+	clear: both;
+	height: auto;
+	display: flex;
+}
+
+.logo-brand img{
+	width: 150px;
+	float: left;
+	position: absolute;
+}
+
+.logo-brand {position: relative;display: inline;width: 140px;padding-left: 81px;padding-top: 37px;}
+.main-nav {
+	float: right;
+	position: relative;
+	font-weight: 700;
+	text-decoration: none;
+	margin-top: 38px;
+}
+.main-nav a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #c1c1c1;
+	font-weight: 800;
+}
+
+.main-nav li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.aktif {
+	color: #ea6661 !important;
+}
+
+.main-nav a:hover {
+	color: white;
+}
