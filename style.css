@@ -65,7 +65,7 @@ body {
 	line-height: 1;
 }
 
-.main-nav li a:hover {
+.nav li a:hover {
 	color: #f74d4c;
 	padding: 5px 20px;
 }
@@ -108,4 +108,40 @@ p.hero-content {
 	padding: 16px 35px;
 	border-radius: 5px;
 	letter-spacing: 0.5px;
+}
+
+#feature {
+	background-color: #f6f6f6;
+	display: block;
+	position: relative;
+	padding: 49px 0px;
+}
+
+.feature-content{
+	position: relative;
+}
+
+.col {
+	width : 20%;
+	float : left;
+	display: inline-block;
+	text-align: center;
+	padding: 28px;
+}
+
+.col img {
+	width: 49px;
+}
+
+.col span {
+	font-size: 20px;
+	padding: 10px;
+	display: block;
+	color: #505050;
+	font-weight: 700;
+}
+
+.col p {
+	font-size: 14px;
+	color: #7c7c7c;
 }
