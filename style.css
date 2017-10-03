@@ -5,11 +5,17 @@
 
 body {
 	font-family: 'Lato', sans-serif;
+	font-size: 14px;
 }
 
 .container {
-	width: 723px;
-	height: 98px;
+	width: 1140px;
+	margin: auto;
+}
+
+.container:before {
+	content: '';
+	clear: both;
 }
 
 .container:after {
@@ -18,43 +24,88 @@ body {
 	display: table;
 }
 
-#header {
-	background-color: #252525;
-	clear: both;
-	height: auto;
-	display: flex;
+
+#main-nav {
+	background-color: #1f1f1f;
+	display: block;
+	position: relative;
+	padding: 35px 0px;
+}
+
+.logo-brand {
+	float: left;
 }
 
 .logo-brand img{
-	width: 150px;
-	float: left;
-	position: absolute;
+	width: 145px;
 }
 
-.logo-brand {position: relative;display: inline;width: 140px;padding-left: 81px;padding-top: 37px;}
-.main-nav {
+.nav {
 	float: right;
-	position: relative;
-	font-weight: 700;
-	text-decoration: none;
-	margin-top: 38px;
-}
-.main-nav a {
-	text-decoration: none;
-	font-size: 13px;
-	color: #c1c1c1;
-	font-weight: 800;
+	margin-top: 10px;
 }
 
-.main-nav li {
+.nav li {
 	display: inline-block;
-	padding-right: 50px;
 }
 
-.aktif {
-	color: #ea6661 !important;
+.nav li.aktif a {
+	color: #f74d4c;
 }
 
-.main-nav a:hover {
-	color: white;
+
+.nav li a {
+	padding: 5px 20px;
+	color: #c4c4c4;
+	font-size: 13px;
+	font-weight: 700;
+	font-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	line-height: 1;
+}
+
+.main-nav li a:hover {
+	color: #f74d4c;
+	padding: 5px 20px;
+}
+
+#main-header {
+	background-color: #1c1c1c;
+	display: block;
+	position: relative;
+}
+
+.header-content {
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 80px;
+}
+
+.hero-header {
+	font-size: 62px;
+	font-weight: 300;
+	color: #d0d0d0;
+	padding-bottom: 20px;
+}
+
+p.hero-content {
+	font size: 10px;
+	font-size: 42px;
+	color: #d0d0d0;
+	font-weight: 300;
+	margin-bottom: 67px;
+}
+
+.button-link {
+	text-decoration: none;
+	background-color: #f74d4c;
+	color: #FFF;
+	text-transform: uppercase;
+	border: none;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 16px 35px;
+	border-radius: 5px;
+	letter-spacing: 0.5px;
 }
