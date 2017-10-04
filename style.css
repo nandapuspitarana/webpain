@@ -116,7 +116,7 @@ p.hero-content {
 	background-color: #f6f6f6;
 	display: block;
 	position: relative;
-	padding: 49px 0px;
+	padding: 75px 0px;
 }
 
 .feature-content{
@@ -149,10 +149,9 @@ p.hero-content {
 }
 
 #feature {
-	background-color: #f6f6f6;
 	display: block;
 	position: relative;
-	padding: 49px 0px; 
+	padding: 55px 0px;
 }
 
 .warp {
@@ -168,8 +167,7 @@ p.hero-content {
 	padding: 10px 0px;
 	display: block;
 	color: #616161;
-	font-weight: 600;
-	padding-top: 55px;
+	font-weight: 900;
 }
 
 .paragraph p {
@@ -215,6 +213,9 @@ p.hero-content {
 	.link-feature li a{
 		font-weight: 900;
 	}
+	.paragraph span{
+		font-weight: 900;
+	}
 }
 
 .link-feature li a:hover {
@@ -226,8 +227,81 @@ p.hero-content {
 }
 
 .img-colin {
+	width: 270px;
 	float : left;
 	display: inline-block;
-	margin-right: 15px;
-	margin-bottom: 10px;
+	margin: 5px 7.5px;
+}
+
+#contact {
+	display: block;
+	position: relative;
+	padding: 67px 0px;
+	background-color: #252525;
+}
+
+.contactus {
+    text-align: center;
+}
+
+.header-contact {
+	font-size: 30px;
+	font-weight: 900;
+	color: #e0e0e0;
+}
+
+.contactus p {
+	font size: 10px;
+	font-size: 20px;
+	color: #d0d0d0;
+	font-weight: 300;
+	margin: 15px 0px;
+}
+
+.callme {
+	margin-bottom: 24px;
+}
+
+.callme li {
+	display: inline-block;
+	color: #bebebe;
+}
+
+.callme li p {
+	color: #bebebe;
+	display: inline-block;
+	margin: 0px 1px;
+	padding: 5px 8px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.callme li img {
+	display: inline-block;
+	height: 12px;
+}
+
+.callme2 {
+}
+
+.callme2 li {
+	display: inline-block;
+	margin: 2px;
+}
+
+.callme2 li img {
+	height: 32px;
+}
+
+#copyright {
+	display: block;
+	position: relative;
+	padding: 25px 0px;
+	background-color: #202020;
+}
+
+.end {
+	font-size: 14px;
+	color: #e0e0e0;
+	text-align: center;
 }
