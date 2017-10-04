@@ -110,12 +110,11 @@ p.hero-content {
 	letter-spacing: 0.5px;
 }
 
-#feature {
+#service {
 	background-color: #f6f6f6;
 	display: block;
 	position: relative;
 	padding: 49px 0px;
-	margin: 0px 0px;
 }
 
 .feature-content{
@@ -145,4 +144,80 @@ p.hero-content {
 .col p {
 	font-size: 14px;
 	color: #7c7c7c;
+}
+
+#feature {
+	background-color: #f6f6f6;
+	display: block;
+	position: relative;
+	padding: 49px 0px; 
+}
+
+.warp {
+}
+
+.paragraph {
+	text-align: center;
+	padding: 0px 28px;
+}
+
+.paragraph span {
+	font-size: 30px;
+	padding: 10px 0px;
+	display: block;
+	color: #616161;
+	font-weight: 600;
+	padding-top: 55px;
+}
+
+.paragraph p {
+	font-size: 20px;
+	color: #7c7c7c;
+	font-weight: 300;
+}
+
+.link-feature {
+	position: relative;
+	margin-top: 48px;
+	margin-bottom: 40px;
+}
+
+.link-feature li {
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.link-feature li.active a {
+	background-color: #595959;
+}
+
+
+.link-feature li a {
+	text-decoration: none;
+	line-height: 1;
+	background-color: #f74d4c;
+	text-transform: uppercase;
+	border: none;
+	font-weight: 700;
+	padding: 9px 21px;
+	border-radius: 5px;
+	letter-spacing: 0.5px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.link-feature li a:hover {
+	background-color: #595959;
+}
+
+.img-col4 {
+	display: block;
+}
+
+.img-colin {
+	float : left;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 10px;
 }
