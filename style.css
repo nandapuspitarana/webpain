@@ -1,6 +1,8 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -9,7 +11,7 @@ body {
 }
 
 .container {
-	width: 1140px;
+	max-width: 1140px;
 	margin: auto;
 }
 
@@ -207,12 +209,20 @@ p.hero-content {
 	font-size: 12px;
 }
 
+@media 
+(-webkit-min-device-pixel-ratio:2),
+(min-resolution: 192dpi){
+	.link-feature li a{
+		font-weight: 900;
+	}
+}
+
 .link-feature li a:hover {
 	background-color: #595959;
 }
 
 .img-col4 {
-	display: block;
+	position: relative;
 }
 
 .img-colin {
