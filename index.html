@@ -1,122 +1,251 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Web Pain</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Pain</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="mainstyle.css">
+        <link rel="stylesheet" href="style-2.css">
 
-<nav id="main-nav">
-	<div class="container">
-		<div class="logo-brand">
-			<img src="assets/logo.png" alt="logo" class="logo-brand">
-		</div>
-			<ul class="nav">
-				<li class="aktif"><a href="#">HOME</a></li>
-				<li><a href="#">PORTOFOLIO</a></li>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><a href="#">CONTACT</a></li>
-			</ul>
-	</div>
-</nav>
+        <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <nav id="main-nav">
+            <div class="container">
+                
+                <nav class="logo-brand navbar navbar-expand-lg navbar-dark">
+                  <a href="#"><img src="assets/logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="mt-3 mt-md-0 collapse navbar-collapse" id="navbarNav">
+                    <ul class="ml-auto nav navbar-nav">
+                      <li class="ml-lg-4 mr-lg-2 nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="ml-lg-4 mr-lg-2 nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="ml-lg-4 mr-lg-2 nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="ml-lg-4 mr-lg-2 nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="ml-lg-4 mr-lg-2 nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
 
-<header id="main-header">
-	<div class="container">
-		<div class="header-content">
-			<h1 class="hero-header">We are <strong>Webpaint</strong></h1>
-			<p class="hero-content"><i>digital & branding</i> agency based in Jupiter and we would love to turn ideas into beautiful things.</p>
-			<a href="" class="button-link">See portofolio</a>
-		</div>
-	</div>
-</header>
+            </div>
+        </nav>
 
-<section id="service">
-	<div class="container">
-		<div class="feature-content">
-			<div class="col">
-				<img src="assets/icon-1.png" alt="">
-				<span>Consectetur</span>
-				<p>Vestibulum id ligula porta euismod semper. Aenean lacinia bibendum nulla sed consectur dui.</p>
-			</div>
-			<div class="col">
-				<img src="assets/icon-2.png" alt="">
-				<span>Tristiquet</span>
-				<p>Fusce dapibus, cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo risus.</p>
-			</div>
-			<div class="col">
-				<img src="assets/icon-3.png" alt="">
-				<span>Fermentum</span>
-				<p>Aenenan eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum sagitis lacus mollis.</p>
-			</div>
-			<div class="col">
-				<img src="assets/icon-4.png" alt="">
-				<span>Elit Ultricies</span>
-				<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis la</p>
-			</div>
-		</div>
-	</div>
-</section>
+        <header id="main-header">
+            <div class="container">
+                <div class="header-content">
+                  <h1 class="hero display-3">We are <span>Webpaint</span></h1>
+                  <p class="desc lead"><i>digital & branding</i> agency based in Jupiter and we would love to turn ideas into beautiful things.</p>
+                  <p class="lead">
+                    <a class="btn btn-danger btn-lg btn-hero" href="#" role="button">See Portfolio</a>
+                  </p>
+                </div>
+            </div>
+        </header>
 
-<section id="feature">
-	<div class="container">
-		<div class="warp">
-			<div class="paragraph">
-				<span>Our Featured Works</span>
-				<p>Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</p>
-				<ul class="link-feature">
-					<li class="active"><a href="#">All</a></li>
-					<li><a href="#">Graphic</a></li>
-					<li><a href="#">Illustration</a></li>
-					<li><a href="#">Motion</a></li>
-				</ul>
-			</div>
-			<div class="img-col4">
-				<div class="img-colin"><img src="assets/image-1.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-2.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-3.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-4.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-5.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-6.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-7.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-8.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-9.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-10.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-11.png" alt=""></div>
-				<div class="img-colin"><img src="assets/image-12.png" alt=""></div>
-			</div>
-		</div>
-	</div>
-</section>
+        <section id="services">
+            <div class="container">
+                <div class="row main-services">
+                    <div class="colom-4 col-lg-3">
+                        <div class="content-services">
+                            <img src="assets/icon-1.png" alt="Icon Logo" class="icon-feature">
+                            <h3>Consectetur</h3>
+                            <p>Lorem ipsum dolor ametcon sectetur adipisicing elit. sedeiusmod tempor incididunt utabore etolore.</p>
+                        </div>
+                    </div>
+                    <div class="colom-4 col-lg-3">
+                        <div class="content-services">
+                            <img src="assets/icon-2.png" alt="Icon Logo" class="icon-feature">
+                            <h3>Tristiquet</h3>
+                            <p>Lorem ipsum dolor ametcon sectetur adipisicing elit. sedeiusmod tempor incididunt utabore etolore.</p>
+                        </div>
+                    </div>
+                    <div class="colom-4 col-lg-3">
+                        <div class="content-services">
+                            <img src="assets/icon-3.png" alt="Icon Logo" class="icon-feature">
+                            <h3>Fermentum</h3>
+                            <p>Lorem ipsum dolor ametcon sectetur adipisicing elit. sedeiusmod tempor incididunt utabore etolore.</p>
+                        </div>
+                    </div>
+                    <div class="colom-4 col-lg-3">
+                        <div class="content-services">
+                            <img src="assets/icon-4.png" alt="Icon Logo" class="icon-feature">
+                            <h3>Elit Ultricies</h3>
+                            <p>Lorem ipsum dolor ametcon sectetur adipisicing elit. sedeiusmod tempor incididunt utabore etolore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<footer id="contact">
-	<div class="container">
-		<div class="contactus">
-			<span class="header-contact">Get in Touch</span>
-			<p >Vestibulum id ligula porta felis euismod semper,malesuada eusmod.</p>
-			<ul class="callme">
-				<li class="adress"><img src="assets/location.png" alt=""><p>Moonshine Street No: 14/05 Light City, Jupiter</p></li>
-				<li class="telp"><img src="assets/phone.png" alt=""><p>0247 541 65 87</p></li>
-			</ul>
-			<ul class="callme2">
-				<li><img src="assets/rss.png" alt=""></li>
-				<li><img src="assets/facebook.png" alt=""></li>
-				<li><img src="assets/twitter.png" alt=""></li>
-				<li><img src="assets/dribbble.png" alt=""></li>
-				<li><img src="assets/pinterest.png" alt=""></li>
-			</ul>
-		</div>
-	</div>
-</footer>
+        <section id="featured">
+            <div class="container">
+                <header>
+                    <h2 class="title-section">Our Featured  Works</h2>
+                    <p class="desc-section">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</p>
+                </header>
 
-<div id="copyright">
-	<div class="container">
-		<p class="end">@ 2013 Webpaint. All Right Reserved.</p>
-	</div>
-</div>
+                <ul class="nav justify-content-center feature-nav portfolioFilter">
+                  <li class="nav-item my-1">
+                    <a class="nav-link active current" href="#" data-filter="*">All</a>
+                  </li>
+                  <li class="nav-item my-1">
+                    <a class="nav-link" href="#" data-filter=".grapich">Grapich</a>
+                  </li>
+                  <li class="nav-item my-1">
+                    <a class="nav-link" href="#" data-filter=".illustration">Illustration</a>
+                  </li>
+                  <li class="nav-item my-1">
+                    <a class="nav-link" href="#" data-filter=".motion">Motion</a>
+                  </li>
+                </ul>
+                
+                <div class="row feature-gallery portfolioContainer no-gutters">
+                    <div class="col-lg-3 grapich" data-category="grapich">
+                        <div class="feature-content">
+                            <img src="assets/image-1.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 illustration">
+                        <div class="feature-content">
+                            <img src="assets/image-2.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 illustration">
+                        <div class="feature-content">
+                            <img src="assets/image-3.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 motion">
+                        <div class="feature-content">
+                            <img src="assets/image-4.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 illustration motion">
+                        <div class="feature-content">
+                            <img src="assets/image-5.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 motion">
+                        <div class="feature-content">
+                            <img src="assets/image-6.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 grapich">
+                        <div class="feature-content">
+                            <img src="assets/image-7.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 grapich">
+                        <div class="feature-content">
+                            <img src="assets/image-8.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 grapich">
+                        <div class="feature-content">
+                            <img src="assets/image-9.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 grapich">
+                        <div class="feature-content">
+                            <img src="assets/image-10.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 grapich">
+                        <div class="feature-content">
+                            <img src="assets/image-11.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 grapich">
+                        <div class="feature-content">
+                            <img src="assets/image-12.png" alt="Image Gallery">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</body>
+        <footer id="footer">
+            <div class="container">
+                <div class="content-footer">
+                    <header>
+                        <h3 class="title-section">Get in Touch</h3>
+                        <p class="desc-section">Vestibulum id ligula porta felis euismod semper,malesuada euismod.</p>
+                    </header>
+                    <address class="row justify-content-md-center address">
+                        <span class="col-md-auto location">
+                            <img src="assets/location.png" alt="Location">
+                            <p>Moonshine Street No: 14/15 Light City, jupiter</p>
+                        </span>
+                        <span class="col-md-auto phone">
+                            <img src="assets/phone.png" alt="Phone">
+                            <p>0247 541 65 87</p>
+                        </span>
+                    </address>
+                    <ul class="social-icon">
+                        <li><a href="#"><img src="assets/rss.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/twitter.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/dribbble.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/pinterest.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                <p>@ 2013 Webpain. All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </body>
+    <!-- Optional JavaScript -->
+    <script>
+      $(window).load(function(){
+            var $container = $('.portfolioContainer');
+            $container.isotope({
+                filter: '*',
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+         
+            $('.portfolioFilter a').click(function(){
+                $('.portfolioFilter .current').removeClass('current');
+                $(this).addClass('current');
+         
+                var selector = $(this).attr('data-filter');
+                $container.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 750,
+                        easing: 'linear',
+                        queue: false
+                    }
+                 });
+                 return false;
+            });
+        });
+
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </html>

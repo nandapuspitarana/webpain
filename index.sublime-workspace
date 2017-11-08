@@ -1,0 +1,605 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"mix",
+				"mix\t@mixin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"in",
+				"inline-grid"
+			],
+			[
+				"gr",
+				"inline-grid"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ti",
+				"title\t<title>"
+			],
+			[
+				"hm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"hea",
+				"header\t<header>"
+			],
+			[
+				"MARGIN",
+				"margin-top"
+			],
+			[
+				"tec",
+				"text-decoration"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"he",
+				"header\t<header>"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"lower",
+				"lower-roman"
+			],
+			[
+				"A",
+				"A"
+			],
+			[
+				"type",
+				"list-style-type"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"to",
+				"margin-top"
+			],
+			[
+				"Text",
+				"text-align"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"br",
+				"br\t<br>"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"a",
+				"a\t<a href=\"mailto:\"> "
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"ht",
+				"html5\tSimple HTML5 Boilerplate"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (5) a bit"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"loremipsum",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"lo",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"po",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"le",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"live",
+				"LiveReload: Self test"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"LI",
+				"LiveReload: Self test"
+			],
+			[
+				"markdown previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark r",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prog",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"anf",
+				"ANF: New File"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"package control i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/nanda/Documents/arif/Tugas1/webpain_revisi/sass/style.sass",
+		"/home/nanda/Documents/arif/Tugas1/webpain_revisi/style-2.css.map",
+		"/home/nanda/Documents/arif/Tugas1/webpain_revisi/style-2.css",
+		"/home/nanda/Documents/arif/bootstrap/readme.md",
+		"/home/nanda/Documents/arif/bootstrap/bootstraptest/css/style.css",
+		"/home/nanda/Documents/arif/bootstrap/bootstraptest/index.html",
+		"/home/nanda/Downloads/template website/coverblogl/index.html",
+		"/home/nanda/Downloads/template website/coverblogl/font-awesome.min.css",
+		"/home/nanda/Downloads/template website/coverblogl/style.css",
+		"/home/nanda/Documents/arif/bootstrap/catatan",
+		"/home/nanda/Documents/arif/bootstrap/bootstraptest/js/popper.min.js",
+		"/home/nanda/Downloads/template website/me/assets/css/me.css",
+		"/home/nanda/Downloads/template website/me/index.html",
+		"/home/nanda/Documents/Tugas1/webpain/note_abstract/pertemuan6",
+		"/home/nanda/Downloads/template website/fullsingle/functions/templates/page-fullsingle-vitae.php",
+		"/home/nanda/Downloads/template website/fullsingle/readme.md",
+		"/home/nanda/Downloads/template website/fullsingle/layouts/split/split.php",
+		"/home/nanda/Downloads/template website/fullsingle/fullsingle.php",
+		"/home/nanda/Documents/Tugas1/webpain/tentangnavhome/home.css",
+		"/home/nanda/Documents/Tugas1/webpain/tentangnavhome/home.html",
+		"/home/nanda/Documents/Tugas1/masarif/webpain/style.css",
+		"/home/nanda/Documents/Tugas1/masarif/webpain/index.html",
+		"/home/nanda/Documents/Tugas1/webpain/style.css",
+		"/home/nanda/Documents/Tugas1/tentangnavhome/catatan",
+		"/home/nanda/Documents/format_form_dailyactivity/Untitled Document",
+		"/home/nanda/Documents/Tugas1/source webpain/index.html",
+		"/home/nanda/Documents/Tugas1/source webpain/style.css",
+		"/home/nanda/Documents/Tugas1/webpain/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/04tugasjs/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/04tugasjs/demo.js",
+		"/opt/lampp/htdocs/html/coverblogl/index.html",
+		"/opt/lampp/htdocs/html/coverblogl/style.css",
+		"/home/nanda/Documents/Tugas1/selingan/freelancer indoenesiamasalah",
+		"/home/nanda/Documents/Tugas1/home/pertemuan_3.md",
+		"/home/nanda/Documents/Tugas1/home/home.css",
+		"/home/nanda/Documents/Tugas1/home/home.html",
+		"/home/nanda/Documents/Tugas1/webpain/ style.css",
+		"/home/nanda/Documents/Tugas1/webpain/css/ style.css",
+		"/home/nanda/Downloads/1_ssh jagoan hosting abuadzhan/passowrd.txt",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/style.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.2/style.css",
+		"/home/nanda/Downloads/template website/login-template-grid/web/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.2/index.html",
+		"/home/nanda/Downloads/template website/login-template-grid/web/css/style.css",
+		"/home/nanda/Downloads/template website/portal-login/web/css/style.css",
+		"/home/nanda/Downloads/checkbox website/CssCheckboxKit_1506047133470659/demo.html",
+		"/home/nanda/Downloads/checkbox website/CssCheckboxKit_1506047133470659/style.css",
+		"/home/nanda/.cache/.fr-QPTfoi/style.css",
+		"/home/nanda/Downloads/template website/login-sign-in/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/sampah/style.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/sampah/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/random/style.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/random/index.html",
+		"/home/nanda/Downloads/template website/random-login-form/css/style.css",
+		"/home/nanda/Downloads/template website/random-login-form/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/index2_files/style.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/index2.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/css/style.css",
+		"/home/nanda/Downloads/template website/web/index.html",
+		"/home/nanda/Downloads/template website/web/css/style.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/contohgrid.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/03tugas/3.1/grid.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/02tugas/marcellop.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/02tugas/style.css",
+		"/home/nanda/Downloads/divi-100-profile-pages-layout-pack/divi-100-profile-pages-layout-pack/All.json",
+		"/home/nanda/Downloads/layout-18092017.json",
+		"/opt/lampp/htdocs/tugas_magelang/andy/02tugas/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/02tugas/tes_index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/02tugas/bootstrap.min.css",
+		"/home/nanda/Documents/belajargit/readme.md",
+		"/opt/lampp/htdocs/tugas_magelang/andy/codingbareng_1/style.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/codingbareng_1/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/01tugas/abuadzhan/style.css",
+		"/opt/lampp/htdocs/tugas_magelang/andy/01tugas/index.html",
+		"/opt/lampp/htdocs/tugas_magelang/andy/01tugas/style.css",
+		"/opt/lampp/htdocs/html/blogku/index.html",
+		"/opt/lampp/htdocs/html/blogku/style.css",
+		"/home/nanda/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
+		"/home/nanda/Documents/magelang class aku/untitled.mdown",
+		"/home/nanda/Documents/magelang class aku/README.md",
+		"/home/nanda/Documents/magelang class aku/note.md",
+		"/home/nanda/Documents/class magelang html/untitled.html",
+		"/home/nanda/Documents/belajargit_magelang/pelajaran1.md",
+		"/home/nanda/Documents/magelang class aku/web_magelang/web_basic/pertemuan_2/NOTE.md",
+		"/etc/letsencrypt/options-ssl-apache.conf",
+		"/home/nanda/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/nanda/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/opt/lampp/htdocs/wordpress/html/01 1 menit membuat website/index.html",
+		"/opt/lampp/htdocs/wordpress/php/01. Belajar PHP/index.php",
+		"/home/nanda/Documents/worpress artikel /mysql/Mysql adalah program database yang sangat populer",
+		"/var/www/html/htdocs/wordpress/extrackwordpress/wp-settings.php",
+		"/home/nanda/Documents/belajar upwork arif/remote working",
+		"/home/nanda/Downloads/f.txt",
+		"/home/nanda/Downloads/google18b70ae766247dac (1).html",
+		"/home/nanda/Downloads/enskrip/C10042A0D7946737291AEAA63471D9C2.txt",
+		"/opt/lampp/htdocs/Belajar PHP/index.php",
+		"/home/nanda/Downloads/enskrip/edWNQZFn3OxfKBN7Fqq3lPJg4_xeO29RvGx9MH0VdhE",
+		"/opt/lampp/htdocs/wordpress/html/06 form/index.html",
+		"/opt/lampp/htdocs/wordpress/html/05 list/ordered list/index.html",
+		"/opt/lampp/htdocs/wordpress/html/05 list/list bersarang/index.html",
+		"/opt/lampp/htdocs/wordpress/html/05 list/unordered list/index.html",
+		"/home/nanda/catatan",
+		"/opt/lampp/htdocs/tesofflineqodr/16bilanganderet/indexbilanganderet.php",
+		"/opt/lampp/htdocs/php/test/index.php",
+		"/opt/lampp/htdocs/wordpress/html/05 list/index.html",
+		"/opt/lampp/htdocs/wordpress/html/04 heading/latihan4.html",
+		"/home/nanda/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/nanda/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/opt/lampp/htdocs/belajar PHP/eksperimen1/experimental1.php",
+		"/opt/lampp/htdocs/belajar PHP/baru belajar dari echo/index.php",
+		"/home/nanda/Desktop/xampp.desktop"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
