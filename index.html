@@ -212,36 +212,7 @@
 
     </body>
     <!-- Optional JavaScript -->
-    <script>
-      $(window).load(function(){
-            var $container = $('.portfolioContainer');
-            $container.isotope({
-                filter: '*',
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-         
-            $('.portfolioFilter a').click(function(){
-                $('.portfolioFilter .current').removeClass('current');
-                $(this).addClass('current');
-         
-                var selector = $(this).attr('data-filter');
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                 });
-                 return false;
-            });
-        });
-
-    </script>
+	<script src="js/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
