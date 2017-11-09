@@ -16,17 +16,6 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.container::before {
-    content: '';
-    clear: both;
-}
-
-.container::after {
-    content: '';
-    clear: both;
-    display: table;
-}
-
 #main-header {
     background-color: #1f1f1f;
     display: block;
@@ -284,15 +273,19 @@ p.desc {
         padding: 12px 25px;
     }
     .icon-feature {
-    height: 35px;
+    height: 45px;
     margin-bottom: 14px;
     }
     .content-services h3 {
-    font-size: 20px;
+    font-size: 25px;
     }
     .content-services p {
-    font-size: 13px;
+    font-size: 17px;
     }
+    .feature-content img {
+    width: 100%;
+    height: 243px;
+	}
 }
 
 /*https://css-tricks.com/snippets/css/retina-display-media-query/*/
